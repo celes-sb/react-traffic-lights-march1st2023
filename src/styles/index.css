@@ -1,12 +1,67 @@
+body {
+    background: rgb(244, 244, 244)
+}
 
-/* 
+.row {
+    width: 15px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.semaforo {
+    width: 70px;
+    height: 210px;
+    padding: 5px;
+}
 
-*/
+.red-light {
+    background-color: red;
+    color: red;
+    margin-top: 0px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.yellow-light {
+    background-color: yellow;
+    color: yellow;
+    margin-top: 7px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.green-light {
+    background-color: green;
+    color: green;
+    margin-top: 7px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.red-light-active {
+    box-shadow: 0px 0px 45px 25px rgba(255, 0, 0, 0.488);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.yellow-light-active {
+    box-shadow: 0px 0px 45px 25px rgba(255, 255, 0, 0.447);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.green-light-active {
+    box-shadow: 0px 0px 45px 25px rgba(0, 128, 0, 0.349);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+footer {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 180px;
+}
